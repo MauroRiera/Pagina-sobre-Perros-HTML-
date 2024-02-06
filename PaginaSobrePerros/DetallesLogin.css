@@ -1,0 +1,100 @@
+body {
+    background: #456;
+    font-family: 'Open Sans';
+}
+
+.login {
+    width: 400px;
+    margin: 16px auto;
+    font-size: 16px;
+}
+
+.login-header,
+.login p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.login-header {
+    background-color: #F9B53C;
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.login-container {
+    background: #ebebeb;
+    padding: 12px;
+}
+
+.login p {
+    padding: 12px;
+}
+
+.login input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+}
+
+.login input[type="button"] {
+    background-color: #fcd081;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login input[type="button"]:hover {
+    background-color: #F9B53C;
+}
+
+body {
+    color: black;
+    background-image: url('Imagenes/fondo.jpg');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    background-image: url('Imagenes/razasPerros.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+
+h1 {
+    color: white;
+    position: center;
+    margin-top: 100px;
+    font-family: Arial;
+    font-size: 50px;
+    -webkit-text-stroke: 2px black;
+}
+
+.menu {
+    background-color: #F9B53C;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    z-index: 1000;
+}
